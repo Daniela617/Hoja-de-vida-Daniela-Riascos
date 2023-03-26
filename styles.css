@@ -1,0 +1,35 @@
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    background-color: ghostwhite;
+    
+}
+.image img{
+     float: left;
+     margin-right: 20px; /* Margen derecho para separar la imagen del título */
+     top: 20px; 
+     left: 20px; 
+     width: 100px; 
+     height: 100px;
+}
+header{
+    background-color: rgb(221, 221, 210);
+    height: 150px;
+    display: flex; /* Utiliza Flexbox para alinear la imagen y el título */
+    align-items: center; /* Alinea verticalmente */
+    font-style:italic;    
+}
+.title-container {
+    display: flex; /* Utiliza Flexbox para alinear los dos títulos */
+    flex-direction: column; /* Alinea verticalmente los dos títulos */
+}
+header h1{
+    margin: 0; /* Elimina el margen por defecto */
+    padding-left: 20px; /* Espacio izquierdo para separar el título de la imagen */
+    padding-bottom: 10px;
+}
+header h2 {
+    margin: 0; /* Elimina el margen por defecto */
+    padding-left: 20px; /* Espacio izquierdo para separar el título de la imagen */
+ }
