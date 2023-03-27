@@ -157,3 +157,10 @@ nav ul {
 
     text-decoration: underline;
   }
+.lsAcademica{
+    list-style-type: none;
+
+}
+.lsAcademica li{
+    margin: 10px;
+}
