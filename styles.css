@@ -61,6 +61,7 @@ header h2 {
     
 
 } 
+
 #contact{
     padding-top: 15px;
     padding-left: 40px;
@@ -102,7 +103,7 @@ input {
      color: #000;
      text-shadow: 2px 2px #fff;
 }
-#ref1 , #ref2
+#ref1 , #ref2, #prAcademica
 {
     padding-left: 30px;
 }
