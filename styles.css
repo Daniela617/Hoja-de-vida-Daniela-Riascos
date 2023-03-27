@@ -15,11 +15,11 @@ body{
      height: 100px;
 }
 header{
-
+/*
     position: fixed;
     top: 15px;
     left: 30px;
-    right: 100px;
+    right: 100px;*/
     height: 150px;
     display: flex; /* Utiliza Flexbox para alinear la imagen y el título */
     align-items: center; /* Alinea verticalmente */
@@ -53,22 +53,67 @@ header h2 {
 .centrado-izquierda {
 
     flex: 0.9;
+    color:black;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-left: 45px;
     
 
 } 
+#contact{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+span{
+    padding-right: 6px;
+    padding-left: 10px;
+}
+input {
+
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #ccc;
+    padding-bottom: 7px;
+    padding-right: 15px;
+  }
+
 .centrado-derecha {
 
     flex: 0.2;
     padding: 30px;
     background-color: black;
-    position: fixed;
+    /*position: fixed;
     top: 200px;
     left: 50px;
-    right: 1200px;
+    right: 1200px;*/
 } 
-
-
-
+#enviar{
+    padding-top: 2px;
+    text-align: center; /* centrar el texto */
+    cursor: pointer; /* cambiar el cursor al pasar el ratón */
+}
+#init 
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+     color: #000;
+     text-shadow: 2px 2px #fff;
+}
+#ref1 , #ref2
+{
+    padding-left: 30px;
+}
+.info1{
+    padding-left: 30px;
+}
+#obj
+{
+    padding-left: 15px;
+    padding-right: 20px;
+}
 .imgGit
 {
 

@@ -26,17 +26,17 @@
             <section class="nav">
                 <nav>
                     <ul>
-                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#init">Inicio</a></li>
                     <br>
-                    <li><a href="#">Datos personales</a></li>
+                    <li><a href="#dPersonales">Datos personales</a></li>
                     <br>
-                    <li><a href="#">Información Académica</a></li>
+                    <li><a href="#iAcademica">Información Académica</a></li>
                     <br>
-                    <li><a href="#">Información laboral</a></li>
+                    <li><a href="#iLaboral">Información laboral</a></li>
                     <br>
-                    <li><a href="#">Referencias</a></li>
+                    <li><a href="#referencias">Referencias</a></li>
                     <br>
-                    <li><a href="html/contacto.html">Contacto</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                     <br>
                     </ul>
                 </nav>
@@ -45,7 +45,112 @@
             
         </div>
         <div class="centrado-izquierda">
-            
+            <div id="init">
+                <h2>HOJA DE VIDA</h2>
+            </div>
+            <div id="dPersonales">
+                <h2>Datos Personales:</h2>
+                <section class="info1">
+                    <h3>Objetivo profesional</h3>
+                    <p id="obj">
+                        Motivada, apta para el trabajo en equipo y con fuertes habilidades organizativas. Como estudiante de ingeniería de sistemas
+                        busco aprender nuevas habilidades, asumir responsabilidades, adquirir experiencias en el campo de la tecnología y crecer profesionalmente. Estoy comprometida
+                        a mejorar los procesos de las empresas y alcanzar sus objetivos.
+                    </p>
+                      
+                </section>
+                <section class="info1">
+                    <h3>Competencias</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Git</li>
+                        <li>SQL ORACLE</li>
+                        <li>C#</li>
+
+                      </ul>
+                      
+                </section>
+                <section class="info1">
+                    <h3>Habilidades</h3>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Resolución de problemas</li>
+                        <li>Manejar conflictos</li>
+                      </ul>
+                      
+                </section>
+                <section  class="info1">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>Inglés</li>
+                      </ul>
+                      
+                </section>
+            </div>
+            <div id="iAcademica">
+                <h2>Información Académica:</h2>
+                
+
+            </div>
+            <div id="iLaboral">
+                <h2>Información laboral:</h2>
+
+            </div>
+            <div id="referencias">
+                <h2>Referencias:</h2>
+                <section id="ref1">
+                    <p>
+                        Edwin campo
+                        <br>
+                        Desarrollador
+                        <br>
+                        Email: edwin-ac@gmail.com
+                        <br> 
+                        Teléfono: +12 3137353
+                    </p>
+                </section>
+                <section id="ref2">
+                    <p>
+                        Jhoiner Urquiza
+                        <br>
+                        Administrador de empresas
+                        <br>
+                        Email: jhoineralexis.urquiza@gmail.com
+                        <br>
+                        Teléfono: +12 31245897
+                    </p>
+                </section>
+            </div>
+            <div >
+                <h2>Contacto:</h2>
+                    <!-- formulario-->
+                    <form action=""> <!--procesar los datos enviados a través del formulario después de que el usuario lo envíe-->
+                        <div id="contact">
+                                <label for="nombre">
+                                    <span>Nombres:</span>
+                                    <input type="text" id="nombre" name="nombre" required/> <!--required es para det que ese campo es necesario-->
+                                </label>
+                                <label for="apellidos">
+                                    <span>Apellidos:</span>
+                                    <input type="text" id="apellidos" name="apellidos" required/>
+                                    
+                                </label>
+                                <label for="Telefono">
+                                    <span>Teléfono:</span>
+                                    <input type="tel" id="Telefono" name="Telefono" required/>
+                                </label>
+                                <label for="Email">
+                                    <span>Email:</span>
+                                    <input type="text" id="Email" name="Email" required/>
+                                </label>
+                            </div>       
+                        <br>
+                        <input id="enviar" type="submit" />
+                    </form> 
+            </div>
         </div>       
     </main>
     <footer>
