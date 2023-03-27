@@ -1,0 +1,15 @@
+body /*dividir el contenedor en dos columnas*/
+{
+
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.formulario
+    {
+
+        flex: 0.9;
+        
+
+    } 
