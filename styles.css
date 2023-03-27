@@ -1,35 +1,116 @@
+
 body{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 30px;
-    background-color: ghostwhite;
-    
+
+    background-image: url("src/mejores-universidades-estudiar-desarrollo-software.jpg");
+    background-size: cover;
+    color:white;
 }
 .image img{
+
      float: left;
-     margin-right: 20px; /* Margen derecho para separar la imagen del título */
+     margin-right: 0px; /* Margen derecho para separar la imagen del título */
      top: 20px; 
      left: 20px; 
      width: 100px; 
      height: 100px;
 }
 header{
-    background-color: rgb(221, 221, 210);
+
+    position: fixed;
+    top: 15px;
+    left: 30px;
+    right: 100px;
     height: 150px;
     display: flex; /* Utiliza Flexbox para alinear la imagen y el título */
     align-items: center; /* Alinea verticalmente */
     font-style:italic;    
+    color: aliceblue;
 }
 .title-container {
+ 
     display: flex; /* Utiliza Flexbox para alinear los dos títulos */
     flex-direction: column; /* Alinea verticalmente los dos títulos */
 }
 header h1{
+
     margin: 0; /* Elimina el margen por defecto */
     padding-left: 20px; /* Espacio izquierdo para separar el título de la imagen */
     padding-bottom: 10px;
 }
 header h2 {
+
     margin: 0; /* Elimina el margen por defecto */
     padding-left: 20px; /* Espacio izquierdo para separar el título de la imagen */
- }
+}
+.contenedor-main /*dividir el contenedor en dos columnas*/
+{
+
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.centrado-izquierda {
+
+    flex: 0.9;
+    
+    position: fixed;
+    top: 200px;
+    bottom: 10px;
+    left: 300px;
+    right: 50px;
+} 
+.centrado-derecha {
+
+    flex: 0.2;
+    padding: 30px;
+    background-color: black;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    right: 1200px;
+} 
+
+
+
+.imgGit
+{
+
+    top: 5px; 
+    left: 5px; 
+    width: 35px; 
+    height: 35px;
+}
+footer{
+    position: fixed;
+    top: 630px;
+    left: 50px;
+    right: 50px;
+}
+nav ul {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+  }
+  
+  nav li {
+
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  a {
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+
+    text-decoration: underline;
+  }
