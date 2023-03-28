@@ -1,7 +1,9 @@
 
 body{
 
-    background-image: url("src/mejores-universidades-estudiar-desarrollo-software.jpg");
+    /*background-image: url("src/mejores-universidades-estudiar-desarrollo-software.jpg");*/
+    background-image: url("src/imgF11.jpg");
+
     background-size: cover;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +16,15 @@ body{
      left: 20px; 
      width: 100px; 
      height: 100px;
+}
+.line{
+    border-top: 1px solid #ccc; /* Agrega un borde superior de 1px de ancho */
+    margin-top: 20px; /* Agrega un espacio de 20px encima del elemento */
+    margin-bottom: 20px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 header{
 /*
@@ -58,15 +69,15 @@ header h2 {
     background: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    padding-left: 45px;
+    
     
 
 } 
-
-#contact{
-    padding-top: 15px;
-    padding-left: 40px;
+#dPersonales , #iAcademica, #iLaboral, #referencias, #cont{
+    padding-left: 45px;
 }
+
+
 span{
     padding-right: 6px;
     padding-left: 10px;
@@ -90,11 +101,7 @@ input {
     left: 50px;
     right: 1200px;*/
 } 
-#enviar{
-    padding-top: 2px;
-    text-align: center; /* centrar el texto */
-    cursor: pointer; /* cambiar el cursor al pasar el ratón */
-}
+
 #init 
 {
     font-size: 25px;
@@ -110,12 +117,17 @@ input {
 }
 .info1{
     padding-left: 30px;
+    
+
 }
+
 #obj
 {
     padding-left: 15px;
     padding-right: 20px;
 }
+/*footer*/
+
 .imgGit
 {
 
@@ -124,11 +136,22 @@ input {
     width: 35px; 
     height: 35px;
 }
+.link{
+    top: 5px; 
+    left: 25px; 
+    width: 35px; 
+    height: 35px;
+}
+.gmail{
+    top: 5px; 
+    left: 5px; 
+    width: 35px; 
+    height: 35px;
+}
 footer{
-    position: fixed;
-    top: 630px;
-    left: 50px;
-    right: 50px;
+    top: 100px;
+    padding-left: 750px;
+    bottom: 100px;
 }
 nav ul {
 
@@ -164,4 +187,36 @@ nav ul {
 }
 .lsAcademica li{
     margin: 10px;
+}
+/*contacto contenedores*/
+.contact /*dividir el contenedor en dos columnas*/
+{
+
+    display: flex;
+    padding-left: 100px;
+
+    
+}
+
+.cont-cont-der{
+
+    flex: 1px;
+} 
+.cont-cont-izq {
+    flex: 1px;
+
+    
+
+    
+    
+
+} 
+
+
+#enviar{
+    padding-top: 30px;
+    text-align:left; /* centrar el texto */
+
+    padding-bottom: 30px;
+    cursor: pointer; /* cambiar el cursor al pasar el ratón */
 }
