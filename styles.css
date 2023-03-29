@@ -3,7 +3,6 @@ body{
 
     /*background-image: url("src/mejores-universidades-estudiar-desarrollo-software.jpg");*/
     background-image: url("src/imgF11.jpg");
-
     background-size: cover;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,13 +10,14 @@ body{
 .image img{
 
      float: left;
+     border: 2px solid white;
      margin-right: 0px; /* Margen derecho para separar la imagen del título */
      top: 20px; 
      left: 20px; 
-     width: 100px; 
-     height: 100px;
+     width: 120px; 
+     height: 120px;
 }
-.line{
+.line{ /*lineas que div la secciones*/
     border-top: 1px solid #ccc; /* Agrega un borde superior de 1px de ancho */
     margin-top: 20px; /* Agrega un espacio de 20px encima del elemento */
     margin-bottom: 20px;
@@ -26,19 +26,15 @@ body{
     margin-right: 20px;
 
 }
-header{
-/*
-    position: fixed;
-    top: 15px;
-    left: 30px;
-    right: 100px;*/
+header{/*flex*/
+
     height: 150px;
     display: flex; /* Utiliza Flexbox para alinear la imagen y el título */
     align-items: center; /* Alinea verticalmente */
     font-style:italic;    
     color: aliceblue;
 }
-.title-container {
+.title-container {/*nombre*/
  
     display: flex; /* Utiliza Flexbox para alinear los dos títulos */
     flex-direction: column; /* Alinea verticalmente los dos títulos */
@@ -62,7 +58,7 @@ header h2 {
     justify-content: space-between;
     
 }
-.centrado-izquierda {
+.centrado-izquierda { /*propiedades de la columna izq del main*/
 
     flex: 0.9;
     color:black;
@@ -73,6 +69,7 @@ header h2 {
     
 
 } 
+
 #dPersonales , #iAcademica, #iLaboral, #referencias, #cont{
     padding-left: 45px;
 }
@@ -153,6 +150,21 @@ footer{
     padding-left: 750px;
     bottom: 100px;
 }
+footer .imagesfooter a{
+    display: inline-block;
+    width: 55px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 5px;
+    margin-bottom: 5px; 
+}
 nav ul {
 
     display: flex;
@@ -169,14 +181,15 @@ nav ul {
     text-align: left;
   }
   
-  a {
+a { /*navegador*/
 
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 700;
   }
   
-  a:hover {
+a:hover {
 
     
     text-decoration: underline;
